@@ -48,6 +48,7 @@ collections:
     name: "english_posts"
     folder: "_posts"
     filter: {field: "language", value: "en"}
+    create: true
     fields:
       - {label: "Language", name: "language", widget: "select", options: ["en", "es"]}
       - {label: "Title", name: "title", widget: "string"}
@@ -56,6 +57,7 @@ collections:
     name: "spanish_posts"
     folder: "_posts"
     filter: {field: "language", value: "es"}
+    create: true
     fields:
       - {label: "Lenguaje", name: "language", widget: "select", options: ["en", "es"]}
       - {label: "Titulo", name: "title", widget: "string"}
